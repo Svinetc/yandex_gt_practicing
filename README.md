@@ -58,7 +58,7 @@ cat refs/heads/master
 ### Типичный жизненный цикл файла в Git
 
 
-![[../../Cache/Image.png]]
+
 
 ### Статусы `untracked`/`tracked`, `staged` и `modified`
 
