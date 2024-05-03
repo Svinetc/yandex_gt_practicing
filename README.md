@@ -81,3 +81,14 @@ cat refs/heads/master
 -    Файл переходит в статус staged после выполнения git add.
 -    Статус modified означает, что файл был изменён.
 -    Большинство файлов в проектах «шагает» по следующему циклу: «изменён» → «добавлен в список на коммит» → «закоммичен» → «изменён» → и так далее.
+
+###
+Teст схемы статусов файлов
+```bash
+graph LR;
+untracked -- git add . --> staged;
+staged -- git commit -m "use mermaid" --> tracked/commited;
+commited -- git push --> commited in remote repository
+%% A --> B строка комментарий
+
+```
