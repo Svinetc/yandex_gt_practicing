@@ -93,3 +93,6 @@ commited -- git push --> commited in remote repository
 %% A --> B строка комментарий
 
 ```
+###
+Дополнение
+- Всегда проверять содержимое комита
