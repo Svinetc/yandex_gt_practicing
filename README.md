@@ -42,7 +42,7 @@ git log --oneline
 ```bash
 cd .git
 ```
-перейди в папку .git
+перейди в папку .git 
 Командой
 ```bash
 cat HEAD
