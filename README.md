@@ -13,7 +13,7 @@
 На странице GitHub создай *new repository* с совпадающим именемБ склонируй его ssh (for example git@github.com:Svinetc/yandex_gt_practicing.git)
 
 Затем в командной строке компьютера находясь в папке своего проекта введи команду *git remote add origin <git@github.com:Svinetc/yandex_gt_practicing.git>
-это свяжет твой локальный реп с удаленным .
+это свяжет твой локальный реп с удаленным.
 проверить можно командой *git remote -v*
 Чтобы отправить изменения в первый раз, используй *git push -u origin master*
 далее достаточно короткой *git push* 
