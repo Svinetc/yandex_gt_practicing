@@ -91,6 +91,7 @@ untracked -- git add . --> staged;
 staged -- git commit -m "use mermaid" --> tracked/commited;
 commited -- git push --> commited in remote repository
 %% A --> B строка комментарий
+-
 
 ```
 ###
